@@ -1,9 +1,9 @@
 
         <svg version="1.1"
         width="300" height="200"
-        xmlns="svg">
+        xmlns="http://www.w3.org/1999/xhtml">
         <shape width="100%" height="100%" fill="white" />
-        <function draw() {
+        <function draw(Shape) {
     const container = data.shape;
 
 
@@ -36,6 +36,5 @@
             } else {
                 style.color = 'green'
             }
-        }">SVG</text>
+        }">svg</text>
         </svg>
-        {
