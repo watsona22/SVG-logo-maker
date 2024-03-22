@@ -1,10 +1,12 @@
 # SVG-logo-maker
 ## Description
 
-The purpose of this challenge was to create a command-line application in node using the inquirer package. This program was designed to allow users to create a logo 300 x 200px logo that is saved as a svg file. The application prompts the user to select a color and shape, provide text for the logo. There will also be a test file supported by jest to insure that the application functions as expected. The project demonstrated the use of node to create a program written in Javascript. 
+This program was designed to allow users to create a logo 300 x 200px logo that is saved as a svg file. The application prompts the user to select a color and shape, provide text for the logo. There will also be a test file supported by jest to insure that the application functions as expected. The project demonstrated the use of node to create a program written in Javascript. 
 
 The acceptance criteria were as follows: 
 
+## Acceptance Criteria
+```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for text
 THEN I can enter up to three characters
@@ -19,6 +21,7 @@ THEN an SVG file is created named `logo.svg`
 AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
+```
 
 All criteria were met and the program functions as expected. 
 
